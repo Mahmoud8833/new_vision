@@ -30,11 +30,24 @@
     //         break;
     //     }
     
-    for ($i = 0; $i < 5; $i++) {
-        echo "<h2>" . ($i + 1) . ": this is number $i</h2>";
-        }
+    // for ($i = 0; $i < 5; $i++) {
+    //     echo "<h2>" . ($i + 1) . ": this is number $i</h2>";
+    //     }
+    
+    $count = 10;
+    // while ($count < 5) {
+    //     echo "<h2 style='color:green'>Hello Mahmoud</h2>";
+    //     $count++;
+    //     }
+    
+    do {
+        echo "<h2 style='color:green'>Hello Mahmoud</h2>";
+        $count++;
+        } while ($count < 5);
 
     ?>
+
+
 
 </body>
 
