@@ -18,17 +18,22 @@
     //     echo "<p>No</p>";
     //     }
     
-    switch ($name) {
-        case "A":
-            echo "<h2 style='color:green'>Hello Mahmoud</h2>";
-            break;
-        case "Ahmed":
-            echo "<h2 style='color:blue'>Hello Ahmed</h2>";
-            break;
-        default:
-            echo "<h2 style='color:red'>Who?</h2>";
-            break;
+    // switch ($name) {
+    //     case "A":
+    //         echo "<h2 style='color:green'>Hello Mahmoud</h2>";
+    //         break;
+    //     case "Ahmed":
+    //         echo "<h2 style='color:blue'>Hello Ahmed</h2>";
+    //         break;
+    //     default:
+    //         echo "<h2 style='color:red'>Who?</h2>";
+    //         break;
+    //     }
+    
+    for ($i = 0; $i < 5; $i++) {
+        echo "<h2>" . ($i + 1) . ": this is number $i</h2>";
         }
+
     ?>
 
 </body>
