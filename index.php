@@ -11,11 +11,23 @@
     <h1>Hello World - PHP</h1>
 
     <?php
-    $name = "Mahmoud";
-    if ($name == "mahmoud") {
-        echo "<p>Yes</p>";
-        } else {
-        echo "<p>No</p>";
+    $name = "Me";
+    // if ($name == "mahmoud") {
+    //     echo "<p>Yes</p>";
+    //     } else {
+    //     echo "<p>No</p>";
+    //     }
+    
+    switch ($name) {
+        case "A":
+            echo "<h2 style='color:green'>Hello Mahmoud</h2>";
+            break;
+        case "Ahmed":
+            echo "<h2 style='color:blue'>Hello Ahmed</h2>";
+            break;
+        default:
+            echo "<h2 style='color:red'>Who?</h2>";
+            break;
         }
     ?>
 
