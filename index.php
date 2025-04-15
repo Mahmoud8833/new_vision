@@ -11,13 +11,13 @@
     <h1>Hello World - PHP</h1>
 
     <?php
-    $name = "Me";
+    // $name = "Me";
     // if ($name == "mahmoud") {
     //     echo "<p>Yes</p>";
     //     } else {
     //     echo "<p>No</p>";
     //     }
-    
+
     // switch ($name) {
     //     case "A":
     //         echo "<h2 style='color:green'>Hello Mahmoud</h2>";
@@ -29,21 +29,25 @@
     //         echo "<h2 style='color:red'>Who?</h2>";
     //         break;
     //     }
-    
+
     // for ($i = 0; $i < 5; $i++) {
     //     echo "<h2>" . ($i + 1) . ": this is number $i</h2>";
     //     }
-    
-    $count = 10;
+
+    // $count = 10;
     // while ($count < 5) {
     //     echo "<h2 style='color:green'>Hello Mahmoud</h2>";
     //     $count++;
     //     }
-    
-    do {
-        echo "<h2 style='color:green'>Hello Mahmoud</h2>";
-        $count++;
-        } while ($count < 5);
+
+    // do {
+    //     echo "<h2 style='color:green'>Hello Mahmoud</h2>";
+    //     $count++;
+    //     } while ($count < 5);
+
+    $arr = array(1, 2, 3, 4, 5, 6, 7, 8, 9);
+    echo $arr[3] . "<br/>";
+    echo count($arr);
 
     ?>
 
