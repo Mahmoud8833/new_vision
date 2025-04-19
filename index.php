@@ -45,9 +45,31 @@
     //     $count++;
     //     } while ($count < 5);
 
-    $arr = array(1, 2, 3, 4, 5, 6, 7, 8, 9);
-    echo $arr[3] . "<br/>";
-    echo count($arr);
+    // $arr = array(1, 2, 3, 4, 5, 6, 7, 8, 9);
+    // echo $arr[3] . "<br/>";
+    // echo count($arr);
+
+    // $x = PHP_INT_MAX;
+    // $y = PHP_INT_MIN;
+    // $z = PHP_INT_SIZE;
+    // echo "$x<br/>";
+    // echo "$y<br/>";
+    // echo "$z Hello" . "<br/>";
+    // $w = 335;
+    // $h = .2;
+    // echo is_int($x) . "<br/>";
+    // echo is_integer($y) . "<br/>";
+    // echo is_long($z) . "<br/>";
+    // $g = acos(90);
+    // echo is_nan($g) . "</br>";
+    // $x = 5985;
+    // var_dump(is_numeric($x));
+
+    // $num = 0;
+    // echo is_numeric($num) . "</br>";
+    // (int)$num;
+    // echo $num;
+    // echo var_dump($num);
 
     ?>
 
